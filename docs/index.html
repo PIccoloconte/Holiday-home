@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -11,234 +11,340 @@
       crossorigin="anonymous"
     />
     <title>Villa Pontappini</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <div id="header-container">
-                <div>
-                    <!--Logo-->
-                    <div id="header-icon">
-                        <a href="index.html" >
-                            <img id="logo-img" src="https://cdn-icons-png.flaticon.com/512/6356/6356095.png" alt="Holiday house">
-                        </a>
-                    </div>
-                    <!--Name-->
-                    <div>
-                        <a href="index.html" id="title-link">
-                            <h1 id="home-title">Villa Pontappini</h1>
-                        </a>
-                    </div>
-                </div>
-                <div id="menu">
-                    <button id="menu-btn">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                </div>
+      <header>
+        <div id="header-container">
+          <div>
+            <!--Logo-->
+            <div id="header-icon">
+              <a href="index.html">
+                <img
+                  id="logo-img"
+                  src="https://cdn-icons-png.flaticon.com/512/6356/6356095.png"
+                  alt="Holiday house"
+                />
+              </a>
             </div>
-            <div class="mobile-links-container ">
-                <ul id="mobile-links">
-                    <li class="mobile-link active">
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li class="mobile-link ">
-                        <a href="location.html">Location</a>
-                    </li>
-                    <li class="mobile-link">
-                        <a href="itineraries.html">Itineraries</a>
-                    </li>
-                    <li class="mobile-link">
-                        <a href="food.html">Food</a>
-                    </li>
-                    <li class="mobile-link">
-                        <a href="contactUs.html">Contact us</a>
-                    </li>
-                </ul>
+            <!--Name-->
+            <div>
+              <a href="index.html" id="title-link">
+                <h1 id="home-title">Villa Pontappini</h1>
+              </a>
             </div>
-            <div class="desktop-links-container">
-                <ul id="desktop-links">
-                    <li class="desktop-link active">
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li class="desktop-link">
-                        <a href="location.html">Location</a>
-                    </li>
-                    <li class="desktop-link">
-                        <a href="itineraries.html">Itineraries</a>
-                    </li>
-                    <li class="desktop-link">
-                        <a href="food.html">Food</a>
-                    </li> 
-                    <li class="desktop-link">
-                        <a href="contactUs.html">Contact us</a>
-                    </li>
-                </ul>
-            </div>    
-        </header>
-        
-        <!-- Image slider -->
-        <div id="panoramic-image">
-            <div id="image-slider">
-                <!--usare https://heictojpg.com/ convert image from heic to jpg-->
-                <div class="house-image active" style="background-image: url('main-img/swimming_pool1.jpg');"></div>
-                <div class="house-image" style="background-image: url('main-img/room3.jpg');"></div>
-                <div class="house-image" style="background-image: url('main-img/swimming_pool2.jpg');"></div>
-                <div class="house-image" style="background-image: url('main-img/room1.jpg');"></div>
-                <div class="house-image" style="background-image: url('main-img/room2.jpg');"></div>
-                <div class=" btn image-btn-left">
-                    <i class="fas fa-chevron-left"></i>
-                </div> 
-                <div class=" btn image-btn-right">
-                    <i class="fas fa-chevron-right"></i>
-                </div> 
-                <div id="bullet-container">
-                    <!--<div class="bullet-box">
+          </div>
+          <div id="menu">
+            <button id="menu-btn">
+              <i class="fa fa-bars"></i>
+            </button>
+          </div>
+        </div>
+        <div class="mobile-links-container">
+          <ul id="mobile-links">
+            <li class="mobile-link active">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="mobile-link">
+              <a href="location.html">Location</a>
+            </li>
+            <li class="mobile-link">
+              <a href="itineraries.html">Itineraries</a>
+            </li>
+            <li class="mobile-link">
+              <a href="food.html">Food</a>
+            </li>
+            <li class="mobile-link">
+              <a href="contactUs.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="desktop-links-container">
+          <ul id="desktop-links">
+            <li class="desktop-link active">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="desktop-link">
+              <a href="location.html">Location</a>
+            </li>
+            <li class="desktop-link">
+              <a href="itineraries.html">Itineraries</a>
+            </li>
+            <li class="desktop-link">
+              <a href="food.html">Food</a>
+            </li>
+            <li class="desktop-link">
+              <a href="contactUs.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- Image slider -->
+      <div id="panoramic-image">
+        <div id="image-slider">
+          <!--usare https://heictojpg.com/ convert image from heic to jpg-->
+          <div
+            class="house-image active"
+            style="background-image: url('main-img/swimming_pool1.jpg')"
+          ></div>
+          <div
+            class="house-image"
+            style="background-image: url('main-img/room3.jpg')"
+          ></div>
+          <div
+            class="house-image"
+            style="background-image: url('main-img/swimming_pool2.jpg')"
+          ></div>
+          <div
+            class="house-image"
+            style="background-image: url('main-img/room1.jpg')"
+          ></div>
+          <div
+            class="house-image"
+            style="background-image: url('main-img/room2.jpg')"
+          ></div>
+          <div class="btn image-btn-left">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="btn image-btn-right">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+          <div id="bullet-container">
+            <!--<div class="bullet-box">
                             <div class="sphere active">    
                         </div>
                     </div>-->
-                    
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
 
-        <!-- Main cards-->
-        <div class="main" id="home">
-            <div id="cards-container">
-                <div class="home-card">
-                    <i class="fa fa-wifi"></i>
-                    <h3>WI-FI INTERNET</h3>
-                    <p>Full high speed signal throughout the Villas, garden and swimming pools.</p>
-                </div>
-                <div class="home-card">
-                    <i class="fa fa-swimming-pool"></i>
-                    <h3>SWIMMING POOL</h3>
-                    <p>The generously-sized pool provides ample space for relaxation and enjoyment.
-                        A distinctive feature of this structure is the expansive whirlpool. 
-                    </p>
-                </div>
-                <div class="home-card">
-                    <i class="fa fa-parking"></i>
-                    <h3>PARKING</h3>
-                    <p>Dedicated spacious zone for parking cars, equipped with electric car chargers.</p>
-                </div>
-                <div class="home-card">
-                    <i class="fa fa-tree"></i>
-                    <h3>OUTDOOR</h3>
-                    <p>Large garden which has games for children, table tennis, and many other attractions</p>
-                </div>
-                <div class="home-card">
-                    <i class="fa fa-dog"></i>
-                    <h3>PETS</h3>
-                    <p>Small and medium-sized pets allowed</p>
-                </div>
-            </div>
+      <!-- Main cards-->
+      <div class="main" id="home">
+        <div id="cards-container">
+          <div class="home-card">
+            <i class="fa fa-wifi"></i>
+            <h3>WI-FI INTERNET</h3>
+            <p>
+              Full high speed signal throughout the Villas, garden and swimming
+              pools.
+            </p>
+          </div>
+          <div class="home-card">
+            <i class="fa fa-swimming-pool"></i>
+            <h3>SWIMMING POOL</h3>
+            <p>
+              The generously-sized pool provides ample space for relaxation and
+              enjoyment. A distinctive feature of this structure is the
+              expansive whirlpool.
+            </p>
+          </div>
+          <div class="home-card">
+            <i class="fa fa-parking"></i>
+            <h3>PARKING</h3>
+            <p>
+              Dedicated spacious zone for parking cars, equipped with electric
+              car chargers.
+            </p>
+          </div>
+          <div class="home-card">
+            <i class="fa fa-tree"></i>
+            <h3>OUTDOOR</h3>
+            <p>
+              Large garden which has games for children, table tennis, and many
+              other attractions
+            </p>
+          </div>
+          <div class="home-card">
+            <i class="fa fa-dog"></i>
+            <h3>PETS</h3>
+            <p>Small and medium-sized pets allowed</p>
+          </div>
+        </div>
 
         <!--Descriptions-->
-            <div id="description-container">
-                <h1 class="appear">Villa Pontappini: beautiful villa in the Tuscan countryside</h1>
-                <p class="appear">Welcome to Villa Tuscany Serenity, a luxurious residence that embodies the charm of the Tuscan countryside with a touch of sophistication. Nestled within an expansive garden, this villa boasts a spectacular swimming pool that provides moments of relaxation and leisure under the warm Tuscan sun.</p>
-                <p class="appear">Its strategic location, in close proximity to Lucca, Pisa, and Florence, makes it an ideal starting point to explore the artistic and cultural treasures of the region. <br> Featuring comfortable sofas, a modern TV, and reliable internet connection, Villa Tuscany Serenity offers a cozy and well-equipped retreat to unwind after a day of exploration.</p>
-                <p class="appear">Enjoy the comfort and beauty of this residence, where every detail has been carefully curated to ensure an unforgettable stay. With its modern amenities and prime location, Villa Tuscany Serenity is the perfect haven for an authentic and refined Tuscan experience.</p>
-            </div>
-        
+        <div id="description-container">
+          <h1 class="appear">
+            Villa Pontappini: beautiful villa in the Tuscan countryside
+          </h1>
+          <p class="appear">
+            Welcome to Villa Tuscany Serenity, a luxurious residence that
+            embodies the charm of the Tuscan countryside with a touch of
+            sophistication. Nestled within an expansive garden, this villa
+            boasts a spectacular swimming pool that provides moments of
+            relaxation and leisure under the warm Tuscan sun.
+          </p>
+          <p class="appear">
+            Its strategic location, in close proximity to Lucca, Pisa, and
+            Florence, makes it an ideal starting point to explore the artistic
+            and cultural treasures of the region. <br />
+            Featuring comfortable sofas, a modern TV, and reliable internet
+            connection, Villa Tuscany Serenity offers a cozy and well-equipped
+            retreat to unwind after a day of exploration.
+          </p>
+          <p class="appear">
+            Enjoy the comfort and beauty of this residence, where every detail
+            has been carefully curated to ensure an unforgettable stay. With its
+            modern amenities and prime location, Villa Tuscany Serenity is the
+            perfect haven for an authentic and refined Tuscan experience.
+          </p>
         </div>
-        <!-- Footer-->
-        <footer>
-            <div>
-                <div id="footer-info">
-                    <div class="footer-box">
-                        <h2>INFO</h2>
-                        <p>Villa Pontappini</p>
-                        <p>Localita Piano</p>
-                        <p>51013 chiesina Uzzanese (PT)</p>
-                        <button id="privacyPolice">Privacy policy</button>
-                    </div>
-                    <div class="footer-box">
-                        <h2>CONTACT US</h2>
-                        <p> Mobile: <a class="varColor" href="tel:+393483754620"> +39 348 3754620</a></p>
-                        <a href="tel:+393483754620"></a>
-                    </div>
-                    <div class="footer-box">
-                        <h2>METEO</h2>
-                        <a href="https://www.3bmeteo.com/meteo_regione-toscana.htm">
-                            <img src="main-img/MeteoToscana.jpg" alt=""> 
-                        </a>
-                    </div>
-                    <div class="footer-box">
-                        <h2>DIRECTIONS</h2>
-                        <a href="https://www.google.com/maps/place/Localit%C3%A0+Piano,+84,+55011+Altopascio+LU/@43.7813853,10.6432733,10.75z/data=!4m6!3m5!1s0x132a7c056835c047:0x5c00388f550fef50!8m2!3d43.8277101!4d10.7202006!16s%2Fg%2F11c4t8zdrc?authuser=0&entry=ttu">
-                            <img src="main-img/Indicazioni stradali 2.png" alt=""> 
-                        </a>
-                    </div>
-                </div>
+      </div>
+      <!-- Footer-->
+      <footer>
+        <div>
+          <div id="footer-info">
+            <div class="footer-box">
+              <h2>INFO</h2>
+              <p>Villa Pontappini</p>
+              <p>Localita Piano</p>
+              <p>51013 chiesina Uzzanese (PT)</p>
+              <button id="privacyPolice">Privacy policy</button>
             </div>
-            <div>
-                <div id="footer-creator">
-                    <p>@2024 Villa Pontappini</p>
-                    <p>Website by Marco Cencig</p>
-                </div>
+            <div class="footer-box">
+              <h2>CONTACT US</h2>
+              <p>
+                Mobile:
+                <a class="varColor" href="tel:+393483754620">
+                  +39 348 3754620</a
+                >
+              </p>
+              <a href="tel:+393483754620"></a>
             </div>
-        </footer>
+            <div class="footer-box">
+              <h2>METEO</h2>
+              <a href="https://www.3bmeteo.com/meteo_regione-toscana.htm">
+                <img src="main-img/MeteoToscana.jpg" alt="" />
+              </a>
+            </div>
+            <div class="footer-box">
+              <h2>DIRECTIONS</h2>
+              <a
+                href="https://www.google.com/maps/place/Localit%C3%A0+Piano,+84,+55011+Altopascio+LU/@43.7813853,10.6432733,10.75z/data=!4m6!3m5!1s0x132a7c056835c047:0x5c00388f550fef50!8m2!3d43.8277101!4d10.7202006!16s%2Fg%2F11c4t8zdrc?authuser=0&entry=ttu"
+              >
+                <img src="main-img/Indicazioni stradali 2.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div id="footer-creator">
+            <p>@2024 Villa Pontappini</p>
+            <p>Website by Marco Cencig</p>
+          </div>
+        </div>
+      </footer>
     </div>
-    
+
     <!--Privacy modal-->
     <dialog id="privacy-modal">
-        <h2>Privacy Policy</h2>
-        <p>Your privacy is important to us. This Privacy Policy outlines how we collect, use, and protect your personal data.</p>
-    
-        <h3>1. Data Collection</h3>
-        <p>We collect the following personal data:</p>
-        <ul>
-            <li>Identification data (name, surname, email address, phone number)</li>
-            <li>Payment information (if applicable)</li>
-            <li>Stay preferences (check-in date, check-out date, special requests)</li>
-        </ul>
-    
-        <h3>2. Use of Data</h3>
-        <p>Your personal data will be used for:</p>
-        <ol>
-            <li>Managing bookings and providing vacation rental services</li>
-            <li>Communicating with you to confirm bookings or respond to inquiries</li>
-            <li>Sending promotional offers and updates, with your consent</li>
-            <li>Improving our website and services</li>
-        </ol>
-    
-        <h3>3. Data Sharing</h3>
-        <p>We will not share your personal data with third parties, except in the following cases:</p>
-        <ul>
-            <li>When necessary to complete a transaction or provide a requested service</li>
-            <li>To comply with legal obligations</li>
-            <li>With third-party service providers (e.g., payment systems) acting on our behalf</li>
-        </ul>
-    
-        <h3>4. Data Security</h3>
-        <p>We implement technical and organizational security measures to protect your personal data from unauthorized access or disclosure.</p>
-    
-        <h3>5. User Rights</h3>
-        <p>You have the right to:</p>
-        <ol>
-            <li>Access your personal data</li>
-            <li>Request correction or deletion of your data</li>
-            <li>Object to the use of your data for promotional purposes</li>
-            <li>Request the portability of your data to another service provider</li>
-        </ol>
-    
-        <h3>6. Data Retention</h3>
-        <p>We will retain your personal data only as long as necessary to fulfill the purposes for which it was collected or to comply with legal obligations.</p>
-    
-        <h3>7. Contact Us</h3>
-        <p>If you have any questions about our Privacy Policy, you can contact us at: <strong>marcocencig97@gmail.com</strong></p>
-    
-        <!-- New Close Button -->
-        <button id="modal-close-btn">Close</button>
+      <h2>Privacy Policy</h2>
+      <p>
+        Your privacy is important to us. This Privacy Policy outlines how we
+        collect, use, and protect your personal data.
+      </p>
+
+      <h3>1. Data Collection</h3>
+      <p>We collect the following personal data:</p>
+      <ul>
+        <li>
+          Identification data (name, surname, email address, phone number)
+        </li>
+        <li>Payment information (if applicable)</li>
+        <li>
+          Stay preferences (check-in date, check-out date, special requests)
+        </li>
+      </ul>
+
+      <h3>2. Use of Data</h3>
+      <p>Your personal data will be used for:</p>
+      <ol>
+        <li>Managing bookings and providing vacation rental services</li>
+        <li>
+          Communicating with you to confirm bookings or respond to inquiries
+        </li>
+        <li>Sending promotional offers and updates, with your consent</li>
+        <li>Improving our website and services</li>
+      </ol>
+
+      <h3>3. Data Sharing</h3>
+      <p>
+        We will not share your personal data with third parties, except in the
+        following cases:
+      </p>
+      <ul>
+        <li>
+          When necessary to complete a transaction or provide a requested
+          service
+        </li>
+        <li>To comply with legal obligations</li>
+        <li>
+          With third-party service providers (e.g., payment systems) acting on
+          our behalf
+        </li>
+      </ul>
+
+      <h3>4. Data Security</h3>
+      <p>
+        We implement technical and organizational security measures to protect
+        your personal data from unauthorized access or disclosure.
+      </p>
+
+      <h3>5. User Rights</h3>
+      <p>You have the right to:</p>
+      <ol>
+        <li>Access your personal data</li>
+        <li>Request correction or deletion of your data</li>
+        <li>Object to the use of your data for promotional purposes</li>
+        <li>
+          Request the portability of your data to another service provider
+        </li>
+      </ol>
+
+      <h3>6. Data Retention</h3>
+      <p>
+        We will retain your personal data only as long as necessary to fulfill
+        the purposes for which it was collected or to comply with legal
+        obligations.
+      </p>
+
+      <h3>7. Contact Us</h3>
+      <p>
+        If you have any questions about our Privacy Policy, you can contact us
+        at: <strong>marcocencig97@gmail.com</strong>
+      </p>
+
+      <!-- New Close Button -->
+      <button id="modal-close-btn">Close</button>
     </dialog>
 
     <!--scroll top btn-->
     <div class="scroll-top-btn">
-        <i class=" fa fa-chevron-up"></i>
+      <i class="fa fa-chevron-up"></i>
     </div>
-   
+
+    <!--Chatbot-->
+    <script type="text/javascript">
+      (function (d, t) {
+        var v = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        v.onload = function () {
+          window.voiceflow.chat.load({
+            verify: { projectID: "67e2ea3d1496c53eb738366d" },
+            url: "https://general-runtime.voiceflow.com",
+            versionID: "production",
+            voice: {
+              url: "https://runtime-api.voiceflow.com",
+            },
+          });
+        };
+        v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs";
+        v.type = "text/javascript";
+        s.parentNode.insertBefore(v, s);
+      })(document, "script");
+    </script>
+
     <script src="home.js"></script>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
